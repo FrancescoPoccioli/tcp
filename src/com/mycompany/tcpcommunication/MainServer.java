@@ -1,8 +1,12 @@
+package com.mycompany.tcpcommunication;
+import java.net.Socket;
+
 public class MainServer {
 
+
         public static void main (String[] args){
-            Server s = new Server(2000);
+            Server ss = new Server(2000);
             Socket s = ss.attendi();
         }
-    }
+
 }

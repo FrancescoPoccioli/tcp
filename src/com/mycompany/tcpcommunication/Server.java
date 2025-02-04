@@ -1,4 +1,5 @@
 package com.mycompany.tcpcommunication;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -27,7 +28,7 @@ public class Server {
         try{
             clientSocket = serverSocket.accept();
         } catch (IOException e){
-            System.err.println(e"e rore di connessione con il client");
+            System.err.println("e rore di connessione con il client");
         }
         return clientSocket;
     }
